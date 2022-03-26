@@ -2,7 +2,7 @@ import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from "react-icons/ai";
 import { GiTie } from "react-icons/gi";
 import { GoLocation } from "react-icons/go";
 import { useTheme } from "next-themes";
-// import Image from "next/image";
+import Image from "next/image";
 
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
@@ -13,33 +13,40 @@ const Sidebar = () => {
 
   return (
     <>
-      {/* <Image
-        src=""
+    {/* <img src="https://media-exp1.licdn.com/dms/image/C5603AQHguWnYXDlslw/profile-displayphoto-shrink_200_200/0/1642283387726?e=1653523200&v=beta&t=kA2cVZ-Xen0atx13F-obbXROG13UYLtz1weul9Xsrbc" 
+    alt="avatar"
+    className="mx-auto border rounded-full "
+    height="128px"
+    width="128px"
+    layout="intrinsic"
+    quality="100" /> */}
+       <Image
+        src="https://media-exp1.licdn.com/dms/image/C5603AQHguWnYXDlslw/profile-displayphoto-shrink_200_200/0/1642283387726?e=1653523200&v=beta&t=kA2cVZ-Xen0atx13F-obbXROG13UYLtz1weul9Xsrbc"
         alt="avatar"
         className="mx-auto border rounded-full "
         height="128px"
         width="128px"
         layout="intrinsic"
         quality="100"
-      /> */}
+      /> 
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
-        <span className="text-green ">Abdul-Quayyum</span> Alao
+        <span className="from-slate-400 to-slate-900 ">Abdul-Quayyum</span> Alao
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">
         Web Developer
-      </p>
+      </p> 
       {/* Resume */}
       <a
-        href=""
+        href="/resume/Alao Abdul-Quayyum.pdf"
         download="Abdul-Quayyum Alao.pdf"
-        className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500"
+        className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500 hover:scale-105"
       >
         <GiTie className="w-6 h-6" />
         <span>Download Resume</span>
       </a>
 
       {/* Socials */}
-      <div className="flex justify-around w-9/12 mx-auto my-5 text-green md:w-full ">
+      <div className="flex justify-around w-9/12 mx-auto my-5 from-slate-400 to-slate-900 md:w-full ">
         <a href="https://twitter.com/AlaoQuayyum">
           <AiOutlineTwitter className="w-8 h-8 cursor-pointer" />
         </a>
@@ -66,14 +73,14 @@ const Sidebar = () => {
       {/* Email Button */}
 
       <button
-        className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 hover:scale-105 focus:outline-none"
-        onClick={() => window.open("alaoabdulquayyumm@gmail.com")}
+        className="w-8/12 px-5 py-2 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-slate-400 to-slate-900 hover:scale-105 focus:outline-none"
+        onClick={() => window.open("mailto:alaoabdulquayyumm@gmail.com")}
       >
         Email me
       </button>
       <button
         onClick={changeTheme}
-        className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-green to-blue-500 focus:outline-none hover:scale-105 "
+        className="w-8/12 px-5 py-2 my-4 text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-slate-400 to-slate-900 focus:outline-none hover:scale-105 "
       >
         {/* //TODO remove bg black */}
         Toggle Theme

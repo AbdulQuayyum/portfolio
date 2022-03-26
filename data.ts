@@ -1,6 +1,6 @@
 import { RiComputerLine } from "react-icons/ri";
-import { FaServer } from "react-icons/fa";
-import { AiOutlineAntDesign, AiOutlineApi } from "react-icons/ai";
+import { FaServer, FaCode } from "react-icons/fa";
+import { AiOutlineAntDesign, AiOutlineApi, } from "react-icons/ai";
 import { MdDeveloperMode } from "react-icons/md";
 import { IProject, Service, Skill } from "./types";
 
@@ -21,15 +21,16 @@ export const services: Service[] = [
   },
   {
     Icon: AiOutlineApi,
-    title: "API Development",
+    title: "APP Development",
     about:
-      "I can develop robust  REST API using <b>django-rest-api</b>  & <b>Node API</b> ",
+      "I can develop a single application that can run on various operating systems.",
   },
   {
-    Icon: MdDeveloperMode,
-    title: "Competitive Coder",
-    about: "a daily problem solver in <b>HackerRank</b>  and <b>Leet Code</b> ",
-  },
+    Icon: FaCode,
+    title: "JavaScript Developer",
+    about:
+       "I specialise in the design, testing and implementation of software using the JavaScript programming language."
+  }
  
 ];
 
@@ -37,7 +38,7 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "Python",
-    level: "45",
+    level: "50",
   },
   {
     Icon: BsCircleFill,
@@ -47,146 +48,163 @@ export const languages: Skill[] = [
   {
     Icon: BsCircleFill,
     name: "React Native",
-    level: "80",
+    level: "60",
   },
   {
     Icon: BsCircleFill,
-    name: "React",
+    name: "React.Js",
     level: "70",
   },
   {
     Icon: BsCircleFill,
-    name: "Django",
-    level: "80",
+    name: "Next.Js",
+    level: "70",
   },
   {
     Icon: BsCircleFill,
-    name: "Bootstrap",
-    level: "80",
+    name: "TypeScript",
+    level: "60",
   },
 ];
 
 export const tools: Skill[] = [
   {
     Icon: BsCircleFill,
-    name: "Figma",
-    level: "85",
+    name: "Flutter",
+    level: "50",
   },
   {
     Icon: BsCircleFill,
-    name: "Photoshop",
-    level: "45",
+    name: "Dart",
+    level: "50",
   },
   {
     Icon: BsCircleFill,
-    name: "Illustrator",
-    level: "60",
+    name: "Firebase",
+    level: "50",
   },
   {
     Icon: BsCircleFill,
-    name: "Framer",
-    level: "45",
+    name: "CSS",
+    level: "80",
   },
 ];
 
 export const projects: IProject[] = [
-  { 
-    name: "COVID Tracker",
+  {
+    id:1,
+    name: "Netflix Clone",
+    image_path: "/images/netflix.png",
+    github_url: "https://github.com/AbdulQuayyum/MERN-Netflix-clone.git",
+    category: ["React.Js", "Express.Js", "Node.Js", "Mongo"],
     description:
-      "This app shows a statistical view about corona virus over the world",
-    image_path: "/images/covid.jpg",
-    deployed_url: "https://covid-19-tracker-by-sumit.web.app/",
-    github_url: "https://github.com/Dey-Sumit/covid-19-tracker",
-    category: ["react"],
-    key_techs: ["React", "Chart.js", "Material UI"],
+      "A Netflix WebApp Clone  ",
+    key_techs: ["React", "Redux", "Express.Js", "API", "Sass", "Mongo"],
+  },
+  { 
+    id:2,
+    name: "Banking App",
+    description:
+      "This App shows transaction of the registerd user",
+    image_path: "/images/banking-app.png",
+    github_url: "https://github.com/AbdulQuayyum/Banking-App/tree/main/(Project%2043)Banking%20App",
+    category: ["Vanilla.Js"],
+    key_techs: ["HTML", "CSS", "JavaScript"],
   },
   {
-    name: "Algorithm Visualizer",
-    image_path: "/images/algoVisual.png",
-    deployed_url: "https://visual-algorithm.web.app/",
-    github_url: "https://github.com/Dey-Sumit/algorithm-visualizer",
-    category: ["react"],
+    id:3,
+    name: "Movie Suggestion App",
+    image_path: "/images/movies.png",
+    github_url: "https://github.com/AbdulQuayyum/MovieApp",
+    category: ["Vanilla.Js"],
     description:
-      "An web app which shows how an algorithm (path finding or sorting) works with cool animation",
-    key_techs: ["React", "firebase", "Framer Motion"],
+      "An web app that brings movies suggestion and information about the movie storyline",
+    key_techs: ["HTML", "CSS", "Vanilla.Js", "APIs"],
   },
 
   {
-    name: "Dev Talks",
-    image_path: "/images/dev.jpg",
-    deployed_url: "https://dev-talks.herokuapp.com/",
-    github_url: "https://github.com/Dey-Sumit/Dev-talks",
-    category: ["node", "mongo", "react"],
+    id:4,
+    name: "Soft-link",
+    image_path: "/images/soft-link.png",
+    github_url: "https://github.com/AbdulQuayyum/soft-link.git",
+    category: ["Node.Js", "Vanilla.Js"],
     description:
-      "Social Media app for developers who can share project,create posts,etc...",
+      "Social Media app inspired by facebook, where the user can share project,create posts,etc...",
     key_techs: [
-      "React",
-      "Redux",
+      "HTML",
+      "CSS",
       "Node",
       "Express",
-      "Mongo",
-      "REST API",
-      "Bootstrap",
+      "Vanilla.Js",
     ],
   },
 
   {
-    name: "Realtime Chat App",
-    image_path: "/images/chatapp.jpg",
-    deployed_url: "https://sumit-chat.netlify.app/",
-    github_url: "https://github.com/Dey-Sumit/chat-app-socket.io-react-node",
-    category: ["node", "react"],
+    id:5,
+    name: "WhatsApp Clone",
+    image_path: "/images/whatsapp-clone.png",
+    github_url: "https://github.com/AbdulQuayyum/Whatsapp-Clone-.git",
+    category: ["HTML", "Vanilla.Js"],
     description:
-      "Basic Realtime Chat App where one can create a room can talk to each other",
-    key_techs: ["React", "Node", "Express", "Socket", "Bootstrap"],
-  },
-
-  {
-    name: "Tweeter Clone",
-    image_path: "/images/tweetme.jpg",
-    deployed_url: "http://sumaxtweetme.pythonanywhere.com/",
-    github_url: "https://github.com/Dey-Sumit/tweetme",
-    category: ["django", "react"],
-    description:
-      "First Django Project :) | Typical Social Media App where one can post,like ,comment etc",
-    key_techs: ["React", "Django", "Django REST API"],
-  },
-
-  {
-    name: "Color Classification using tf.js",
-    image_path: "/images/color.jpg",
-    deployed_url: "!#",
-    github_url: "https://github.com/Dey-Sumit/color-classification",
-    category: ["express"],
-    description:
-      "Tried ML with JS :) | this app classifies a color using CNN algorithm in browser",
-    key_techs: ["Express", "TensorFlow.js", "Vanilla js"],
-  },
-  {
-    name: "YouTube using YouTube ",
-    image_path: "/images/youtubeClone.png",
-    deployed_url: "https://not-utube.web.app/",
-    github_url: "https://github.com/Dey-Sumit/youtube-clone-tutorial-up",
-    category: ["express"],
-    description:
-      'Full(almost) Functional YouTube replica where one can login with his/her youtube account to enjoy "not-YouTube".User can like a video,comment on a video & Much More ',
+      "A WhatsApp Clone",
     key_techs: [
-      "React",
-      "Redux",
-      "Firebase Auth",
-      "YouTube API",
-      "Sass",
-      "Bootstrap",
+      "HTML",
+      "CSS",
+      "Vanilla.Js",
     ],
   },
+
   {
-    name: "Football App",
-    image_path: "/images/football.png",
-    deployed_url: "https://o-my-goal.web.app/",
-    github_url: "https://github.com/Dey-Sumit/football-app",
-    category: ["react"],
+    id:6,
+    name: "Youtube Clone",
+    image_path: "/images/youtube-clone.png",
+    github_url: "https://github.com/AbdulQuayyum/Youtube-Clone-.git",
+    category: ["HTML", "Vanilla.Js"],
     description:
-      "o my goal replica where an user can keep an eye on his favorite club.This app will keep providing \n all the statistics of that club.all the fans can also chat ",
-    key_techs: ["React", "Redux", "Firebase Auth", "API", "Sass", "Bootstrap"],
+      "A youtube clone where a user has access to videos via an API",
+    key_techs: ["HTML", "CSS", "Node", "Vanilla.Js" , "Youtube Api"],
+  },
+
+  {
+    id:7,
+    name: "Candy Crush Clone",
+    image_path: "/images/candy-crush-clone.png",
+    github_url: "https://github.com/AbdulQuayyum/Project-Games/tree/master/(Project%2040)Candy%20Crush",
+    category: ["HTML", "Vanilla.Js"],
+    description:
+      "A Candy Crush Clone built with Vanilla.Js ",
+    key_techs: ["HTML", "CSS", "Vanilla.Js" ],
+  },
+
+  {
+    id:8,
+    name: "Bank Website",
+    image_path: "/images/banking-website.png",
+    github_url: "https://github.com/AbdulQuayyum/banking-webstie.git",
+    category: ["HTML", "Vanilla.Js"],
+    description:
+      "A Bank WebSite which gibes you information about the bank then allows you to register an account",
+    key_techs: ["HTML", "CSS", "Vanilla.Js" ],
+  },
+
+  {
+    id:9,
+    name: "Portfolio",
+    image_path: "/images/portfolio.png",
+    github_url: "https://github.com/AbdulQuayyum/Portfolios",
+    category: ["HTML", "Vanilla.Js"],
+    description:
+      "A Portfolio Website I created using HTML, CSS, JavaScript  ",
+    key_techs: ["HTML", "CSS", "Vanilla.Js" ],
+  },
+
+  {id:10,
+    name: "Quiz App",
+    image_path: "/images/quiz-app.png",
+    github_url: "https://github.com/AbdulQuayyum/Quiz-App.git",
+    category: ["HTML", "Vanilla.Js"],
+    description:
+      "A Quiz Web App that generates random questions using an API ",
+    key_techs: ["HTML", "CSS", "Vanilla.Js", "API" ],
   },
 ];
