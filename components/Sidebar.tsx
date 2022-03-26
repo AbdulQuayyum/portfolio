@@ -2,7 +2,7 @@ import { AiFillGithub, AiFillLinkedin, AiOutlineTwitter } from "react-icons/ai";
 import { GiTie } from "react-icons/gi";
 import { GoLocation } from "react-icons/go";
 import { useTheme } from "next-themes";
-import Image from "next/image";
+// import Image from "next/image";
 
 const Sidebar = () => {
   const { theme, setTheme } = useTheme();
@@ -13,14 +13,14 @@ const Sidebar = () => {
 
   return (
     <>
-    {/* <img src="https://media-exp1.licdn.com/dms/image/C5603AQHguWnYXDlslw/profile-displayphoto-shrink_200_200/0/1642283387726?e=1653523200&v=beta&t=kA2cVZ-Xen0atx13F-obbXROG13UYLtz1weul9Xsrbc" 
+    <img src="https://media-exp1.licdn.com/dms/image/C5603AQHguWnYXDlslw/profile-displayphoto-shrink_200_200/0/1642283387726?e=1653523200&v=beta&t=kA2cVZ-Xen0atx13F-obbXROG13UYLtz1weul9Xsrbc" 
     alt="avatar"
     className="mx-auto border rounded-full "
     height="128px"
     width="128px"
     layout="intrinsic"
-    quality="100" /> */}
-       <Image
+    quality="100" />
+       {/* <Image
         src="https://media-exp1.licdn.com/dms/image/C5603AQHguWnYXDlslw/profile-displayphoto-shrink_200_200/0/1642283387726?e=1653523200&v=beta&t=kA2cVZ-Xen0atx13F-obbXROG13UYLtz1weul9Xsrbc"
         alt="avatar"
         className="mx-auto border rounded-full "
@@ -28,7 +28,7 @@ const Sidebar = () => {
         width="128px"
         layout="intrinsic"
         quality="100"
-      /> 
+      />  */}
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
         <span className="from-slate-400 to-slate-900 ">Abdul-Quayyum</span> Alao
       </h3>
