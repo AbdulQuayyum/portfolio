@@ -7,9 +7,9 @@ import {
 } from "next";
 import ServiceCard from "../components/ServiceCard";
 import { services } from "../data";
-import { Service } from "../types";
 import { motion } from "framer-motion"
 import { fadeInUp, routeAnimation, stagger } from "../styles/animation";
+import Head from "next/head"
 
 const About = ({endpoint}) => {
 
@@ -21,6 +21,15 @@ const About = ({endpoint}) => {
     initial="initial"
     animate="animate"
     exit="exit" >
+
+
+     <Head>
+       <title>
+           Web Developer | portfolio | Alao Abdul-Quayyum | Quayyum | MERN Stack
+       </title>
+     </Head>
+
+
       <h6 className="my-3 text-base font-medium">
         I am a Software Developer in training, currently pursuing B.Sc Degree
         in Computer Science from University Of Ilorin. I have 1+ year of 

@@ -48,13 +48,13 @@ const Sidebar = () => {
 
       {/* Socials */}
       <div className="flex justify-around w-9/12 mx-auto my-5 from-slate-400 to-slate-900 md:w-full ">
-        <a href="https://twitter.com/AlaoQuayyum">
+        <a href="https://twitter.com/AlaoQuayyum"  aria-label="Twitter">
           <AiOutlineTwitter className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://www.linkedin.com/in/alao-abdul-quayyum-982492218/?originalSubdomain=ng " >
+        <a href="https://www.linkedin.com/in/alao-abdul-quayyum-982492218/?originalSubdomain=ng "  aria-label="LinkedIn">
           <AiFillLinkedin className="w-8 h-8 cursor-pointer" />
         </a>
-        <a href="https://github.com/AbdulQuayyum">
+        <a href="https://github.com/AbdulQuayyum" aria-label="GitHub">
           <AiFillGithub className="w-8 h-8 cursor-pointer" />{" "}
         </a>
       </div>
