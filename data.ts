@@ -96,6 +96,7 @@ export const projects: IProject[] = [
     name: "Netflix Clone",
     image_path: "/images/netflix.png",
     github_url: "https://github.com/AbdulQuayyum/MERN-Netflix-clone.git",
+    deployed_url: "https://soft-link-facebook-clone.vercel.app/",
     category: ["React.Js", "Express.Js", "Node.Js", "Mongo"],
     description:
       "A Netflix WebApp Clone  ",
@@ -108,6 +109,7 @@ export const projects: IProject[] = [
       "This App shows transaction of the registerd user",
     image_path: "/images/banking-app.png",
     github_url: "https://github.com/AbdulQuayyum/Banking-App/tree/main/(Project%2043)Banking%20App",
+    deployed_url: "https://soft-link-facebook-clone.vercel.app/",
     category: ["Vanilla.Js"],
     key_techs: ["HTML", "CSS", "JavaScript"],
   },
@@ -116,7 +118,8 @@ export const projects: IProject[] = [
     name: "Movie Suggestion App",
     image_path: "/images/movies.png",
     github_url: "https://github.com/AbdulQuayyum/MovieApp",
-    category: ["Vanilla.Js"],
+    deployed_url: "https://movie-suggestion-website.vercel.app/",
+    category: ["Vanilla.Js", "HTML"],
     description:
       "An web app that brings movies suggestion and information about the movie storyline",
     key_techs: ["HTML", "CSS", "Vanilla.Js", "APIs"],
@@ -127,6 +130,7 @@ export const projects: IProject[] = [
     name: "Soft-link",
     image_path: "/images/soft-link.png",
     github_url: "https://github.com/AbdulQuayyum/soft-link.git",
+    deployed_url: "https://soft-link-facebook-clone.vercel.app/",
     category: ["Node.Js", "Vanilla.Js"],
     description:
       "Social Media app inspired by facebook, where the user can share project,create posts,etc...",
@@ -141,12 +145,13 @@ export const projects: IProject[] = [
 
   {
     id:5,
-    name: "WhatsApp Clone",
-    image_path: "/images/whatsapp-clone.png",
-    github_url: "https://github.com/AbdulQuayyum/Whatsapp-Clone-.git",
+    name: "Soft Tours",
+    image_path: "/images/Screenshot 2022-04-12 004846.png",
+    github_url: "https://github.com/AbdulQuayyum/Project-18/tree/main/(Project%2002)Tour%20Guide%20Site",
+    deployed_url: "https://soft-link-facebook-clone.vercel.app/",
     category: ["HTML", "Vanilla.Js"],
     description:
-      "A WhatsApp Clone",
+      "A Website For a Touring Company",
     key_techs: [
       "HTML",
       "CSS",
@@ -159,6 +164,7 @@ export const projects: IProject[] = [
     name: "Youtube Clone",
     image_path: "/images/youtube-clone.png",
     github_url: "https://github.com/AbdulQuayyum/Youtube-Clone-.git",
+    deployed_url: "https://youtube-website-clone.vercel.app/",
     category: ["HTML", "Vanilla.Js"],
     description:
       "A youtube clone where a user has access to videos via an API",
@@ -170,6 +176,7 @@ export const projects: IProject[] = [
     name: "Candy Crush Clone",
     image_path: "/images/candy-crush-clone.png",
     github_url: "https://github.com/AbdulQuayyum/Project-Games/tree/master/(Project%2040)Candy%20Crush",
+    deployed_url: "https://soft-link-facebook-clone.vercel.app/",
     category: ["HTML", "Vanilla.Js"],
     description:
       "A Candy Crush Clone built with Vanilla.Js ",
@@ -181,6 +188,7 @@ export const projects: IProject[] = [
     name: "Bank Website",
     image_path: "/images/banking-website.png",
     github_url: "https://github.com/AbdulQuayyum/banking-webstie.git",
+    deployed_url: "https://soft-link-facebook-clone.vercel.app/",
     category: ["HTML", "Vanilla.Js"],
     description:
       "A Bank WebSite which gibes you information about the bank then allows you to register an account",
@@ -192,19 +200,10 @@ export const projects: IProject[] = [
     name: "Portfolio",
     image_path: "/images/portfolio.png",
     github_url: "https://github.com/AbdulQuayyum/Portfolios",
+    deployed_url: "https://soft-link-facebook-clone.vercel.app/",
     category: ["HTML", "Vanilla.Js"],
     description:
       "A Portfolio Website I created using HTML, CSS, JavaScript  ",
     key_techs: ["HTML", "CSS", "Vanilla.Js" ],
-  },
-
-  {id:10,
-    name: "Quiz App",
-    image_path: "/images/quiz-app.png",
-    github_url: "https://github.com/AbdulQuayyum/Quiz-App.git",
-    category: ["HTML", "Vanilla.Js"],
-    description:
-      "A Quiz Web App that generates random questions using an API ",
-    key_techs: ["HTML", "CSS", "Vanilla.Js", "API" ],
   },
 ];

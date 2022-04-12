@@ -31,8 +31,9 @@ const About = ({endpoint}) => {
 
 
       <h6 className="my-3 text-base font-medium">
-        I am a Software Developer in training, currently pursuing B.Sc Degree
-        in Computer Science from University Of Ilorin. I have 1+ year of 
+        I am  Software Developer using JavaScript || TypeScript || MERN || Flutter || React-Native Technologies to solve problems,
+        I am currently pursuing B.Sc Degree
+        in Computer Science from University Of Ilorin. I have 1+ year
         experience in Web Development.
      </h6>
       <div

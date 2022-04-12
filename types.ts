@@ -18,8 +18,9 @@ export interface IProject {
   description: string;
   image_path: string;
   github_url: string;
+  deployed_url: string;
   category: Category[];
   key_techs: string[];
 }
 
-export type Category = "React.Js" | "Node.Js" | "HTML" | "Vanilla.Js" | "Express.Js" | "Mongo" ;
+export type Category = "React.Js" | "Node.Js" | "HTML" | "Vanilla.Js" | "Express.Js" | "Mongo" | "React Native" | "Flutter" | ;
