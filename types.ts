@@ -23,4 +23,4 @@ export interface IProject {
   key_techs: string[];
 }
 
-export type Category = "React.Js" | "Node.Js" | "HTML" | "Vanilla.Js" | "Express.Js" | "Mongo" | "React Native" | "Flutter" | ;
+export type Category = "React.Js" | "Node.Js" | "HTML" | "Vanilla.Js" | "Express.Js" | "Mongo" | "React Native" | "Flutter" ; 
