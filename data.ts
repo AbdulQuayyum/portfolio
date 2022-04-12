@@ -93,40 +93,6 @@ export const tools: Skill[] = [
 export const projects: IProject[] = [
   {
     id:1,
-    name: "Netflix Clone",
-    image_path: "/images/netflix.png",
-    github_url: "https://github.com/AbdulQuayyum/MERN-Netflix-clone.git",
-    deployed_url: "https://soft-link-facebook-clone.vercel.app/",
-    category: ["React.Js", "Express.Js", "Node.Js", "Mongo"],
-    description:
-      "A Netflix WebApp Clone  ",
-    key_techs: ["React", "Redux", "Express.Js", "API", "Sass", "Mongo"],
-  },
-  { 
-    id:2,
-    name: "Banking App",
-    description:
-      "This App shows transaction of the registerd user",
-    image_path: "/images/banking-app.png",
-    github_url: "https://github.com/AbdulQuayyum/Banking-App/tree/main/(Project%2043)Banking%20App",
-    deployed_url: "https://soft-link-facebook-clone.vercel.app/",
-    category: ["Vanilla.Js"],
-    key_techs: ["HTML", "CSS", "JavaScript"],
-  },
-  {
-    id:3,
-    name: "Movie Suggestion App",
-    image_path: "/images/movies.png",
-    github_url: "https://github.com/AbdulQuayyum/MovieApp",
-    deployed_url: "https://movie-suggestion-website.vercel.app/",
-    category: ["Vanilla.Js", "HTML"],
-    description:
-      "An web app that brings movies suggestion and information about the movie storyline",
-    key_techs: ["HTML", "CSS", "Vanilla.Js", "APIs"],
-  },
-
-  {
-    id:4,
     name: "Soft-link",
     image_path: "/images/soft-link.png",
     github_url: "https://github.com/AbdulQuayyum/soft-link.git",
@@ -142,13 +108,12 @@ export const projects: IProject[] = [
       "Vanilla.Js",
     ],
   },
-
   {
-    id:5,
+    id:2,
     name: "Soft Tours",
     image_path: "/images/Screenshot 2022-04-12 004846.png",
-    github_url: "https://github.com/AbdulQuayyum/Project-18/tree/main/(Project%2002)Tour%20Guide%20Site",
-    deployed_url: "https://soft-link-facebook-clone.vercel.app/",
+    github_url: "https://github.com/AbdulQuayyum/Tour-guide-site.git",
+    deployed_url: "https://github.com/AbdulQuayyum/Tour-guide-site.git",
     category: ["HTML", "Vanilla.Js"],
     description:
       "A Website For a Touring Company",
@@ -158,7 +123,42 @@ export const projects: IProject[] = [
       "Vanilla.Js",
     ],
   },
-
+  { 
+    id:3,
+    name: "Banking App",
+    description:
+    "This Bank App that you can use to perform numerous transactions, {you can log in using 'qa' as user and '1111' as pin or 'fa' as user and '2222' as pin} ",
+    image_path: "/images/banking-app.png",
+    github_url: "https://github.com/AbdulQuayyum/Banking-App/tree/main/(Project%2043)Banking%20App",
+    deployed_url: "https://bank-app-gold.vercel.app/",
+    category: ["Vanilla.Js"],
+    key_techs: ["HTML", "CSS", "JavaScript"],
+  },
+  {
+    id:4,
+    name: "Bank Website",
+    image_path: "/images/banking-website.png",
+    github_url: "https://github.com/AbdulQuayyum/banking-webstie.git",
+    deployed_url: "https://bank-website-vert.vercel.app/",
+    category: ["HTML", "Vanilla.Js"],
+    description:
+      "A Bank WebSite which gibes you information about the bank then allows you to register an account",
+    key_techs: ["HTML", "CSS", "Vanilla.Js" ],
+  },
+  {
+    id:5,
+    name: "Movie Suggestion App",
+    image_path: "/images/movies.png",
+    github_url: "https://github.com/AbdulQuayyum/MovieApp",
+    deployed_url: "https://movie-suggestion-website.vercel.app/",
+    category: ["Vanilla.Js", "HTML"],
+    description:
+      "An web app that brings movies suggestion and information about the movie storyline",
+    key_techs: ["HTML", "CSS", "Vanilla.Js", "APIs"],
+  },
+  
+  
+  
   {
     id:6,
     name: "Youtube Clone",
@@ -176,7 +176,7 @@ export const projects: IProject[] = [
     name: "Candy Crush Clone",
     image_path: "/images/candy-crush-clone.png",
     github_url: "https://github.com/AbdulQuayyum/Project-Games/tree/master/(Project%2040)Candy%20Crush",
-    deployed_url: "https://soft-link-facebook-clone.vercel.app/",
+    deployed_url: "candy-crush-clone.vercel.app",
     category: ["HTML", "Vanilla.Js"],
     description:
       "A Candy Crush Clone built with Vanilla.Js ",
@@ -185,25 +185,25 @@ export const projects: IProject[] = [
 
   {
     id:8,
-    name: "Bank Website",
-    image_path: "/images/banking-website.png",
-    github_url: "https://github.com/AbdulQuayyum/banking-webstie.git",
+    name: "Netflix Clone",
+    image_path: "/images/netflix.png",
+    github_url: "https://github.com/AbdulQuayyum/MERN-Netflix-clone.git",
     deployed_url: "https://soft-link-facebook-clone.vercel.app/",
-    category: ["HTML", "Vanilla.Js"],
+    category: ["React.Js", "Express.Js", "Node.Js", "Mongo"],
     description:
-      "A Bank WebSite which gibes you information about the bank then allows you to register an account",
-    key_techs: ["HTML", "CSS", "Vanilla.Js" ],
+      "A Netflix WebApp Clone  ",
+    key_techs: ["React", "Redux", "Express.Js", "API", "Sass", "Mongo"],
   },
 
-  {
-    id:9,
-    name: "Portfolio",
-    image_path: "/images/portfolio.png",
-    github_url: "https://github.com/AbdulQuayyum/Portfolios",
-    deployed_url: "https://soft-link-facebook-clone.vercel.app/",
-    category: ["HTML", "Vanilla.Js"],
-    description:
-      "A Portfolio Website I created using HTML, CSS, JavaScript  ",
-    key_techs: ["HTML", "CSS", "Vanilla.Js" ],
-  },
+  // {
+  //   id:9,
+  //   name: "Recipe App",
+  //   image_path: "/images/portfolio.png",
+  //   github_url: "https://github.com/AbdulQuayyum/Portfolios",
+  //   deployed_url: "https://soft-link-facebook-clone.vercel.app/",
+  //   category: ["HTML", "Vanilla.Js"],
+  //   description:
+  //     "A Portfolio Website I created using HTML, CSS, JavaScript  ",
+  //   key_techs: ["HTML", "CSS", "Vanilla.Js" ],
+  // },
 ];
