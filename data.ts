@@ -113,7 +113,7 @@ export const projects: IProject[] = [
     name: "Soft Tours",
     image_path: "/images/Screenshot 2022-04-12 004846.png",
     github_url: "https://github.com/AbdulQuayyum/Tour-guide-site.git",
-    deployed_url: "https://github.com/AbdulQuayyum/Tour-guide-site.git",
+    deployed_url: "https://tour-guide-site.vercel.app/",
     category: ["HTML", "Vanilla.Js"],
     description:
       "A Website For a Touring Company",
@@ -176,7 +176,7 @@ export const projects: IProject[] = [
     name: "Candy Crush Clone",
     image_path: "/images/candy-crush-clone.png",
     github_url: "https://github.com/AbdulQuayyum/Project-Games/tree/master/(Project%2040)Candy%20Crush",
-    deployed_url: "candy-crush-clone.vercel.app",
+    deployed_url: "https://candy-crush-clone.vercel.app/",
     category: ["HTML", "Vanilla.Js"],
     description:
       "A Candy Crush Clone built with Vanilla.Js ",
