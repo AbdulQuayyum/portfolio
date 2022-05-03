@@ -158,7 +158,6 @@ export const projects: IProject[] = [
   },
   
   
-  
   {
     id:6,
     name: "Youtube Clone",
