@@ -23,7 +23,7 @@ export const services: Service[] = [
     Icon: AiOutlineApi,
     title: "APP Development",
     about:
-      "I can develop a single application that can run on various operating systems.",
+      "I can develop Cross-Platform appliications using differents technologies .",
   },
   {
     Icon: FaCode,

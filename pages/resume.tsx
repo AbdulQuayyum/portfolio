@@ -29,10 +29,11 @@ const Resume = () => {
             <h5 className="my-2 text-xl font-bold">
               Computer Science 
             </h5>
-            <p className="font-semibold">Academy of Technology (2021-2024)</p>
+            <p className="font-semibold">University Of Ilorin (2021-2024)</p>
             <p className="my-3">
               I am currently pursuing B.Sc in Computer Science in University Of Ilorin
             </p>
+            <p className="font-semibold">Junior Front-End Developer @ D'Accubin Technology</p>
           </div>
         </motion.div>
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
