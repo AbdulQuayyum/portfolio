@@ -33,7 +33,7 @@ const Resume = () => {
             <p className="my-3">
               I am currently pursuing B.Sc in Computer Science in University Of Ilorin
             </p>
-            <p className="font-semibold">Junior Front-End Developer @ D'Accubin Technology</p>
+            <p className="font-semibold">Junior Front-End Developer @ DAccubin Technology</p>
           </div>
         </motion.div>
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
