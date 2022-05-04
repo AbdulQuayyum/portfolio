@@ -172,14 +172,14 @@ export const projects: IProject[] = [
 
   {
     id:7,
-    name: "Candy Crush Clone",
-    image_path: "/images/candy-crush-clone.png",
-    github_url: "https://github.com/AbdulQuayyum/Project-Games/tree/master/(Project%2040)Candy%20Crush",
-    deployed_url: "https://candy-crush-clone.vercel.app/",
-    category: ["HTML", "Vanilla.Js"],
+    name: "Admin Dashboard",
+    image_path: "/images/Admin.png",
+    github_url: "https://github.com/AbdulQuayyum/admin-dashboard.git",
+    deployed_url: "https://dash-board-woad.vercel.app/",
+    category: ["React.Js"],
     description:
-      "A Candy Crush Clone built with Vanilla.Js ",
-    key_techs: ["HTML", "CSS", "Vanilla.Js" ],
+      "iI build an Admin dashboard using React.JS ",
+    key_techs: ["React.Js", "Sass", ],
   },
 
   {
@@ -188,7 +188,7 @@ export const projects: IProject[] = [
     image_path: "/images/netflix.png",
     github_url: "https://github.com/AbdulQuayyum/MERN-Netflix-clone.git",
     deployed_url: "https://soft-link-facebook-clone.vercel.app/",
-    category: ["React.Js", "Express.Js", "Node.Js", "Mongo"],
+    category: ["React.Js", "Express.Js", "Node.Js"],
     description:
       "A Netflix WebApp Clone  ",
     key_techs: ["React", "Redux", "Express.Js", "API", "Sass", "Mongo"],
