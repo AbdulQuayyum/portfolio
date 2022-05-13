@@ -38,8 +38,8 @@ const Sidebar = () => {
       </p>
       {/* Resume */}
       <a
-        href="/resume/Alao Abdul-Quayyum.pdf"
-        download="Abdul-Quayyum Alao.pdf"
+        href="/resume/Alao Abdul-Quayyum .pdf"
+        download="Alao Abdul-Quayyum.pdf"
         className="flex items-center justify-center px-2 py-1 my-2 bg-gray-200 rounded-full cursor-pointer dark:bg-dark-200 dark:bg-black-500 hover:scale-105"
       >
         <GiTie className="w-6 h-6" />
