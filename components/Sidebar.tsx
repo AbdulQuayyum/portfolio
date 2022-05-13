@@ -31,7 +31,7 @@ const Sidebar = () => {
         quality="100"
       />
       <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
-        <span className="from-slate-400 to-slate-900 ">Abdul-Quayyum</span> Alao
+        <span className="from-slate-400 to-slate-900 ">Alao</span> Abdul-Quayyum
       </h3>
       <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">
         Software Developer
