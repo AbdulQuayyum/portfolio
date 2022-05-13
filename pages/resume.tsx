@@ -33,8 +33,8 @@ const Resume = () => {
             <p className="my-3">
               I am currently pursuing B.Sc in Computer Science in University Of Ilorin
             </p>
-            <p className="font-semibold">Junior Front-End Developer @ DAccubin Technology</p>
-            <p className="my-3">
+            <p className="my-2 text-xl font-bold">Junior Front-End Developer @ DAccubin Technology</p>
+            <p className="font-semibold">
               April 2022 - Present
             </p>
           </div>
