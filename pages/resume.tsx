@@ -12,14 +12,14 @@ const Resume = () => {
       variants={routeAnimation}
       initial="initial"
       animate="animate"
-      exit="exit" 
+      exit="exit"
     >
 
-<Head>
-      <title>
+      <Head>
+        <title>
           Web Developer | portfolio | Alao Abdul-Quayyum | Quayyum | MERN Stack
-      </title>
-    </Head>
+        </title>
+      </Head>
 
       {/* //! Education & Experience */}
       <div className="grid gap-6 md:grid-cols-2">
@@ -27,13 +27,16 @@ const Resume = () => {
           <h5 className="my-3 text-2xl font-bold">Education</h5>
           <div className="">
             <h5 className="my-2 text-xl font-bold">
-              Computer Science 
+              University Of Ilorin (2021-2024)
             </h5>
-            <p className="font-semibold">University Of Ilorin (2021-2024)</p>
+            <p className="font-semibold">BSc. Computer Science</p>
             <p className="my-3">
               I am currently pursuing B.Sc in Computer Science in University Of Ilorin
             </p>
             <p className="font-semibold">Junior Front-End Developer @ DAccubin Technology</p>
+            <p className="my-3">
+              April 2022 - Present
+            </p>
           </div>
         </motion.div>
         <motion.div variants={fadeInUp} initial="initial" animate="animate">
@@ -41,10 +44,10 @@ const Resume = () => {
           <div className="">
             <p className="font-semibold">-Creative </p>
             <p className="my-3">Able to implement visual appealing and
-                               functional design elements</p>
+              functional design elements</p>
             <p className="font-semibold">-Debugging</p>
             <p className="my-3">-Proficient user of chrome dev tools to identify
-                                 errors and proficient use of google </p>
+              errors and proficient use of google </p>
           </div>
         </motion.div>
       </div>

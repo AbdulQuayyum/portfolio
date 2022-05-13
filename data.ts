@@ -11,30 +11,35 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can build a beautiful and scalable SPA using <b> HTML</b>,<b>CSS</b>   and <b>React.js</b> ",
+      "I can develop user-facing features, determine the structure and design of web pages, build reusable codes, optimizing page loading times, and using a variety of markup languages to create the web pages ",
   },
   {
     Icon: FaServer,
     title: "Backend  Development",
     about:
-      "handle database, server, api using <b>Express </b> & other popular frameworks",
+      "I can handle database, server, api using <b>Express </b> & other popular frameworks.",
   },
   {
     Icon: AiOutlineApi,
-    title: "APP Development",
+    title: "Mobile Development",
     about:
-      "I can develop Cross-Platform appliications using differents technologies .",
+      "I design, develop and implement software applications that are compatible with multiple mobile operating systems.",
   },
   {
     Icon: FaCode,
     title: "JavaScript Developer",
     about:
-       "I specialise in the design, testing and implementation of software using the JavaScript programming language."
+      "I specialise in the design, testing and implementation of software using the JavaScript programming language."
   }
- 
+
 ];
 
 export const languages: Skill[] = [
+  {
+    Icon: BsCircleFill,
+    name: "JavaScript",
+    level: "60",
+  },
   {
     Icon: BsCircleFill,
     name: "Python",
@@ -42,18 +47,13 @@ export const languages: Skill[] = [
   },
   {
     Icon: BsCircleFill,
-    name: "Java Script",
-    level: "60",
-  },
-  {
-    Icon: BsCircleFill,
-    name: "React Native",
-    level: "60",
-  },
-  {
-    Icon: BsCircleFill,
     name: "React.Js",
     level: "70",
+  },
+  {
+    Icon: BsCircleFill,
+    name: "Vue.Js",
+    level: "60",
   },
   {
     Icon: BsCircleFill,
@@ -75,6 +75,11 @@ export const tools: Skill[] = [
   },
   {
     Icon: BsCircleFill,
+    name: "React Native",
+    level: "60",
+  },
+  {
+    Icon: BsCircleFill,
     name: "Dart",
     level: "50",
   },
@@ -92,7 +97,7 @@ export const tools: Skill[] = [
 
 export const projects: IProject[] = [
   {
-    id:1,
+    id: 1,
     name: "Soft-link",
     image_path: "/images/soft-link.png",
     github_url: "https://github.com/AbdulQuayyum/soft-link.git",
@@ -109,7 +114,7 @@ export const projects: IProject[] = [
     ],
   },
   {
-    id:2,
+    id: 2,
     name: "Soft Tours",
     image_path: "/images/Screenshot 2022-04-12 004846.png",
     github_url: "https://github.com/AbdulQuayyum/Tour-guide-site.git",
@@ -123,11 +128,11 @@ export const projects: IProject[] = [
       "Vanilla.Js",
     ],
   },
-  { 
-    id:3,
+  {
+    id: 3,
     name: "Banking App",
     description:
-    "This Bank App that you can use to perform numerous transactions, {you can log in using 'qa' as user and '1111' as pin or 'fa' as user and '2222' as pin} ",
+      "This Bank App that you can use to perform numerous transactions, {you can log in using 'qa' as user and '1111' as pin or 'fa' as user and '2222' as pin} ",
     image_path: "/images/banking-app.png",
     github_url: "https://github.com/AbdulQuayyum/Banking-App/tree/main/(Project%2043)Banking%20App",
     deployed_url: "https://bank-app-gold.vercel.app/",
@@ -135,7 +140,7 @@ export const projects: IProject[] = [
     key_techs: ["HTML", "CSS", "JavaScript"],
   },
   {
-    id:4,
+    id: 4,
     name: "Bank Website",
     image_path: "/images/banking-website.png",
     github_url: "https://github.com/AbdulQuayyum/banking-webstie.git",
@@ -143,10 +148,10 @@ export const projects: IProject[] = [
     category: ["HTML", "Vanilla.Js"],
     description:
       "A Bank WebSite which gibes you information about the bank then allows you to register an account",
-    key_techs: ["HTML", "CSS", "Vanilla.Js" ],
+    key_techs: ["HTML", "CSS", "Vanilla.Js"],
   },
   {
-    id:5,
+    id: 5,
     name: "Movie Suggestion App",
     image_path: "/images/movies.png",
     github_url: "https://github.com/AbdulQuayyum/MovieApp",
@@ -156,22 +161,22 @@ export const projects: IProject[] = [
       "An web app that brings movies suggestion and information about the movie storyline",
     key_techs: ["HTML", "CSS", "Vanilla.Js", "APIs"],
   },
-  
-  
-  {
-    id:6,
-    name: "Youtube Clone",
-    image_path: "/images/youtube-clone.png",
-    github_url: "https://github.com/AbdulQuayyum/Youtube-Clone-.git",
-    deployed_url: "https://youtube-website-clone.vercel.app/",
-    category: ["HTML", "Vanilla.Js"],
-    description:
-      "A youtube clone where a user has access to videos via an API",
-    key_techs: ["HTML", "CSS", "Node", "Vanilla.Js" , "Youtube Api"],
-  },
+
+
+  // {
+  //   id: 6,
+  //   name: "Youtube Clone",
+  //   image_path: "/images/youtube-clone.png",
+  //   github_url: "https://github.com/AbdulQuayyum/Youtube-Clone-.git",
+  //   deployed_url: "https://youtube-website-clone.vercel.app/",
+  //   category: ["HTML", "Vanilla.Js"],
+  //   description:
+  //     "A youtube clone where a user has access to videos via an API",
+  //   key_techs: ["HTML", "CSS", "Node", "Vanilla.Js", "Youtube Api"],
+  // },
 
   {
-    id:7,
+    id: 6,
     name: "Admin Dashboard",
     image_path: "/images/Admin.png",
     github_url: "https://github.com/AbdulQuayyum/admin-dashboard.git",
@@ -179,11 +184,11 @@ export const projects: IProject[] = [
     category: ["React.Js"],
     description:
       "iI build an Admin dashboard using React.JS ",
-    key_techs: ["React.Js", "Sass", ],
+    key_techs: ["React.Js", "Sass",],
   },
 
   {
-    id:8,
+    id: 7,
     name: "Netflix Clone",
     image_path: "/images/netflix.png",
     github_url: "https://github.com/AbdulQuayyum/MERN-Netflix-clone.git",
