@@ -11,7 +11,7 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can develop user-facing features, determine the structure and design of web pages, build reusable codes, optimizing page loading times, and using a variety of markup languages to create the web pages ",
+      "I can architect and develop websites and applications using web technologies ",
   },
   {
     Icon: FaServer,
@@ -23,13 +23,13 @@ export const services: Service[] = [
     Icon: AiOutlineApi,
     title: "Mobile Development",
     about:
-      "I design, develop and implement software applications that are compatible with multiple mobile operating systems.",
+      "I can develop software applications that are compatible with multiple mobile operating systems.",
   },
   {
     Icon: FaCode,
     title: "JavaScript Developer",
     about:
-      "I specialise in the design, testing and implementation of software using the JavaScript programming language."
+      "I design, test and implement software using the JavaScript programming language."
   }
 
 ];
