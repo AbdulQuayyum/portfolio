@@ -65,7 +65,7 @@ const Sidebar = () => {
         style={{ marginLeft: "-1rem", marginRight: "-1rem" }}
       >
         <div className="flex items-center justify-center">
-          <GoLocation className="mr-2" /> <span>Lagos ,Nigeria </span>
+          <GoLocation className="mr-2" /> <span>Nigeria </span>
         </div>
         <p className="my-2 "> alaoabdulquayyumm@gmail.com </p>
         <p className="my-2"> 08078595073 / 08105861814 </p>
