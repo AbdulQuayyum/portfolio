@@ -11,25 +11,25 @@ export const services: Service[] = [
     Icon: RiComputerLine,
     title: "Frontend Development",
     about:
-      "I can architect and develop websites and applications using web technologies ",
+      "I architect ,develop websites and applications using web technologies",
   },
   {
     Icon: FaServer,
     title: "Backend  Development",
     about:
-      "I can handle database, server, api using <b>Express </b> & other popular frameworks.",
+      "I handle database, server, api using <b>Express</b> framework.",
   },
   {
     Icon: AiOutlineApi,
     title: "Mobile Development",
     about:
-      "I can develop software applications that are compatible with multiple mobile operating systems.",
+      "I develop Cross-Platforms Software Applications.",
   },
   {
     Icon: FaCode,
     title: "JavaScript Developer",
     about:
-      "I design, test and implement software using the JavaScript programming language."
+      "I design, test and implement software using The JavaScript."
   }
 
 ];
