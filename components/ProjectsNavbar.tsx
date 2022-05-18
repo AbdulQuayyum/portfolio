@@ -27,6 +27,7 @@ const ProjectsNavbar: FunctionComponent<{
       <NavItem value="Node.Js" {...props} />
       <NavItem value="Vanilla.Js" {...props} />
       <NavItem value="Express.Js" {...props} />
+      <NavItem value="React Native" {...props} />
     </div>
   );
 };

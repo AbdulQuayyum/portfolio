@@ -10,13 +10,13 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
             rel="stylesheet"
           />
-          <meta 
-              name="description"
-              content="MERN Stack looking for a job"
+          <meta
+            name="description"
+            content="MERN Stack looking for a job"
           />
-             <meta 
-              name="keywords"
-              content="Full Stack Web Developer, Freelancer, MERN Stack Developer, JavaScript Developer, Alao Abdul-Quayyum, Alao, Abdul-Quayyum"
+          <meta
+            name="keywords"
+            content="Full Stack Web Developer, Freelancer, MERN Stack Developer, JavaScript Developer, Alao Abdul-Quayyum, Alao, Abdul-Quayyum, Mobile Developer, How to create a portfolio, portfolio designs, portfolio, flutter, javascript, react-native, react.js"
           />
 
         </Head>

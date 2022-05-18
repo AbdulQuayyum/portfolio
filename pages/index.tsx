@@ -25,7 +25,7 @@ const About = ({ endpoint }) => {
 
       <Head>
         <title>
-          Web Developer | portfolio | Alao Abdul-Quayyum | Quayyum | Full Stack Developer
+          Alao Abdul-Quayyum Portfolio
         </title>
       </Head>
 
