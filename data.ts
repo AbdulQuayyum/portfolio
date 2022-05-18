@@ -98,19 +98,17 @@ export const tools: Skill[] = [
 export const projects: IProject[] = [
   {
     id: 1,
-    name: "Soft-link",
-    image_path: "/images/soft-link.png",
-    github_url: "https://github.com/AbdulQuayyum/soft-link.git",
-    deployed_url: "https://soft-link-facebook-clone.vercel.app/",
-    category: ["Node.Js", "Vanilla.Js"],
+    name: "Soft-NFTs",
+    image_path: "/images/nft-app.png",
+    github_url: "https://github.com/AbdulQuayyum/React-Native-NFT-App.git",
+    deployed_url: "https://expo.dev/@quayyum/nft_app?serviceType=classic&distribution=expo-go",
+    category: ["React.Js", "React Native"],
     description:
-      "Social Media app inspired by facebook, where the user can share project,create posts,etc...",
+      "A Cross-Platform Application created using the React-Native Technology",
     key_techs: [
-      "HTML",
+      "React.Js",
+      "React-Native",
       "CSS",
-      "Node",
-      "Express",
-      "Vanilla.Js",
     ],
   },
   {
@@ -152,28 +150,15 @@ export const projects: IProject[] = [
   },
   {
     id: 5,
-    name: "Movie Suggestion App",
-    image_path: "/images/movies.png",
-    github_url: "https://github.com/AbdulQuayyum/MovieApp",
-    deployed_url: "https://movie-suggestion-website.vercel.app/",
-    category: ["Vanilla.Js", "HTML"],
+    name: "Landing website For An NFT App",
+    image_path: "/images/nft-landing-page.png",
+    github_url: "https://github.com/AbdulQuayyum/nft_app_landing_website.git",
+    deployed_url: "https://landing-website-xi.vercel.app/",
+    category: ["React.Js"],
     description:
-      "An web app that brings movies suggestion and information about the movie storyline",
-    key_techs: ["HTML", "CSS", "Vanilla.Js", "APIs"],
+      "The Landing Website of The Cross-Platform Application.",
+    key_techs: ["React.Js", "Tailwind CSS",],
   },
-
-
-  // {
-  //   id: 6,
-  //   name: "Youtube Clone",
-  //   image_path: "/images/youtube-clone.png",
-  //   github_url: "https://github.com/AbdulQuayyum/Youtube-Clone-.git",
-  //   deployed_url: "https://youtube-website-clone.vercel.app/",
-  //   category: ["HTML", "Vanilla.Js"],
-  //   description:
-  //     "A youtube clone where a user has access to videos via an API",
-  //   key_techs: ["HTML", "CSS", "Node", "Vanilla.Js", "Youtube Api"],
-  // },
 
   {
     id: 6,
@@ -198,16 +183,4 @@ export const projects: IProject[] = [
       "A Netflix WebApp Clone  ",
     key_techs: ["React", "Redux", "Express.Js", "API", "Sass", "Mongo"],
   },
-
-  // {
-  //   id:9,
-  //   name: "Recipe App",
-  //   image_path: "/images/portfolio.png",
-  //   github_url: "https://github.com/AbdulQuayyum/Portfolios",
-  //   deployed_url: "https://soft-link-facebook-clone.vercel.app/",
-  //   category: ["HTML", "Vanilla.Js"],
-  //   description:
-  //     "A Portfolio Website I created using HTML, CSS, JavaScript  ",
-  //   key_techs: ["HTML", "CSS", "Vanilla.Js" ],
-  // },
 ];
